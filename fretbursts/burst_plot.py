@@ -40,7 +40,8 @@ from itertools import cycle
 # Numeric imports
 import numpy as np
 from numpy import arange, r_
-from matplotlib.mlab import normpdf
+from scipy.stats import norm
+normpdf=norm.pdf
 from scipy.stats import erlang
 from scipy.interpolate import UnivariateSpline
 
